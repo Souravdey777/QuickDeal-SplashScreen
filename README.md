@@ -10,7 +10,7 @@ A splash screen is a graphical control element consisting of a window containing
 
 This is an Android Application which consist of Animated Splash Screen.
 
-`Developed on 2017`
+`Developed in 2017`
 
 ### Demo
 
