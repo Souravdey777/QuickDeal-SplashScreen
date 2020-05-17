@@ -16,8 +16,8 @@ This is an Android Application which consist of Animated Splash Screen.
 
 `The Icon will move up smoothly and the below user Specific login will appear.`
 
-**[Click here to download the apk](https://drive.google.com/file/d/0BxyUEpBbbGBjSU9udnFQNTd2SUU/view?usp=sharing)**
-<a href="https://drive.google.com/file/d/0BxyUEpBbbGBjSU9udnFQNTd2SUU/view?usp=sharing" target="_blank">
+**[Click here to download the apk](https://drive.google.com/open?id=1KKupcrnBLLU-J7WgripejWbhhvdrKBEQ)**
+<a href="https://drive.google.com/open?id=1KKupcrnBLLU-J7WgripejWbhhvdrKBEQ" target="_blank">
 	<p align="center">
   		<img src="./Screenshot1.jpg" width="300" title="QuickDeal-SplashScreen" alt="QuickDeal-SplashScreen">       <img src="./Screenshot2.jpg" width="300" title="QuickDeal-SplashScreen" alt="QuickDeal-SplashScreen">
 	</p>
