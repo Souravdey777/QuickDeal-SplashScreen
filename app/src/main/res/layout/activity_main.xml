@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="souravapp.quickdeal.MainActivity">
+    <RelativeLayout
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="320dp"
+        android:layout_centerInParent="true"
+        tools:ignore="UselessParent">
+        <ImageView
+            android:id="@+id/logo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo1"
+            android:layout_centerInParent="true"
+            tools:ignore="ContentDescription"
+            android:padding="15dp"/>
+        <ImageView
+            android:id="@+id/logo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo2"
+            android:layout_alignParentBottom="true"
+            tools:ignore="ContentDescription" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/option"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:background="@drawable/ic_background"
+        android:layout_alignParentBottom="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="I AM A..."
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            tools:ignore="HardcodedText" />
+        <Button
+            android:id="@+id/buyer"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/ic_buyer"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+        <Button
+            android:id="@+id/seller"
+            android:layout_width="140dp"
+            android:layout_height="45dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ic_seller"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+    </RelativeLayout>
+</RelativeLayout>

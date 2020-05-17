@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="souravapp.quickdeal.edit">
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:text="ok"
+        android:layout_alignParentEnd="true"/>
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv"
+        android:textSize="20sp"
+        tools:ignore="LabelFor,MissingConstraints"
+        android:inputType="" />
+
+</RelativeLayout>
